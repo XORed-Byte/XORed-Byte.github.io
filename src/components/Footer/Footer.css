@@ -1,32 +1,32 @@
 #footer {
-  margin-top: 1.5vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
+    margin-top: 1.5dvw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 
-  > p {
-    opacity: 0.5;
-    transition: 0.3s;
-    font-size: 12px;
-    &:last-child {
-      &:hover {
-        cursor: pointer;
-        opacity: 1;
+    > p {
+        opacity: 0.5;
         transition: 0.3s;
-      }
+        font-size: 12px;
+        &:last-child {
+            &:hover {
+                cursor: pointer;
+                opacity: 1;
+                transition: 0.3s;
+            }
+        }
     }
-  }
 }
 
 @media (max-width: 700px) {
-  #footer {
-    flex-direction: column-reverse;
-    align-items: start;
+    #footer {
+        flex-direction: column-reverse;
+        align-items: start;
 
-    > p {
-      margin-top: 2vh;
+        > p {
+            margin-top: 2dvh;
+        }
     }
-  }
 }

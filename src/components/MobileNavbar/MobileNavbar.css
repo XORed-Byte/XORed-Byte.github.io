@@ -1,23 +1,23 @@
 #mobile-nav {
-  display: none;
-  background-color: transparent;
-  position: absolute;
-  left: 10%;
-  top: 2vh;
-  z-index: 2;
-  width: 80%;
-  flex-directon: row;
-  align-items: center;
-  justify-content: start;
+    display: none;
+    background-color: transparent;
+    position: absolute;
+    left: 10%;
+    top: 2dvh;
+    z-index: 2;
+    width: 80%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
 
-  > button {
-    border: none;
-    background: transparent;
-  }
+    > button {
+        border: none;
+        background: transparent;
+    }
 }
 
 @media (max-width: 700px) {
-  #mobile-nav {
-    display: flex;
-  }
+    #mobile-nav {
+        display: flex;
+    }
 }
