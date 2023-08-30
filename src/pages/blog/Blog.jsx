@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { RouteWrapper } from "../../lib";
 
 import "./Blog.css";
@@ -31,7 +32,10 @@ const Blog = () => {
                                 <p>{tag}</p>
                             ))}
                         </div>
-                        <p>{post.description}</p>
+                        <div className="blog-description">
+                            <p>{post.description}</p>
+                            <NavLink to={post.link}>Read More</NavLink>
+                        </div>
                     </div>
                 ))}
             </div>
