@@ -24,7 +24,7 @@ const EvalTheme = (theme) => {
                   { name: "--text-color-2", value: "#717171" },
                   { name: "--border-color", value: "#313438" },
                   { name: "--border-color-light", value: "#4c5461" },
-                  { name: "--button-color", value: "#4c5461" },
+                  { name: "--button-color", value: "#313438" },
               ];
 
     colorProperties.forEach((p) => {
